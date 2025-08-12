@@ -2,15 +2,22 @@ Cygwin Cygport Workflow Template
 ================================
 A template repository preconfigured to automatically build Cygwin Cygport files.
 
+About the Cygwin Cygport Workflow Template
+------------------------------------------
+The [Cygwin Cygport Workflow Template](https://github.com/mesheets/Cygport-Workflow-Template)
+is designed to automatically generate
+[Cygwin Cygport packages](https://cygwin.com/packaging-contributors-guide.html)
+for `*.cygport` file(s) contained in the root of the repository.
+
 Basic Usage Info
 ----------------
-Any Cygwin Cygport files (with a \*.cygport extension) created within the root
+Any Cygwin Cygport files (with a `*.cygport` extension) created within the root
 directroy will be automatically build for all supported architectures
 (currently “x86” and “x86_64”) by a GitHub Workflow upon a push, a pull
 request, or a manual workflow invocation request.
 
 How to Keep Current with the Parent Template
-----------------------------------------
+--------------------------------------------
 By completing a few additional steps, any repositories created from this
 template can be configured to check for updates to the original template
 repository.
@@ -65,3 +72,4 @@ so the following steps are necessary instead:
 
 For troubleshooting information, you may also refer to
 [this link](https://github.com/marketplace/actions/actions-template-sync#troubleshooting).
+

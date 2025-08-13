@@ -73,3 +73,7 @@ so the following steps are necessary instead:
 For troubleshooting information, you may also refer to
 [this link](https://github.com/marketplace/actions/actions-template-sync#troubleshooting).
 
+Example Repositories
+--------------------
+Refer to the following for example usage of this template:
+* [GNU Hello Cygport Package](https://github.com/mesheets/hello.cygport)
